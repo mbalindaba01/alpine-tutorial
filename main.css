@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Karla', 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #eee;
+    color: #eee;
+}
+
+div.parent {
+    width: 300px;
+    height: 150px;
+    background-color: #001314;
+    margin: 20px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+button, input {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+button {
+    padding: 2px 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
